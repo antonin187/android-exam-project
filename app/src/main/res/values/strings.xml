@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ExamProject</string>
+
+    <string name="header_main_title">Epsi</string>
+    <string name="header_infos_title">Infos</string>
+    <string name="header_rayons_title">Rayons</string>
+
+    <string name="btn_text_info">Infos</string>
+    <string name="btn_text_produits">Produits</string>
+</resources>
