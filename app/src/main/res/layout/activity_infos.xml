@@ -31,12 +31,12 @@
             <Button
                 android:id="@+id/buttonStudent2"
                 style="@style/InfosButton"
-                android:text="@string/btn_text_student1" />
+                android:text="@string/btn_text_student2" />
 
             <Button
                 android:id="@+id/buttonStudent3"
                 style="@style/InfosButton"
-                android:text="@string/btn_text_student1" />
+                android:text="@string/btn_text_student3" />
         </LinearLayout>
 
 

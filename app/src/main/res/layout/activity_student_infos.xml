@@ -25,32 +25,27 @@
             <ImageView
                 android:id="@+id/imageStudent"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="300dp"
                 tools:srcCompat="@tools:sample/avatars" />
 
             <TextView
-                android:id="@+id/textStudentFirstname"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="TextView" />
-
-            <TextView
-                android:id="@+id/textStudentLastname"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:id="@+id/textStudentName"
+                style="@style/StudentTextView" />
 
             <TextView
                 android:id="@+id/textStudentEmail"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="TextView" />
+                style="@style/StudentTextView" />
 
             <TextView
                 android:id="@+id/textStudentGroup"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="TextView" />
+                style="@style/StudentTextView" />
+
+            <TextView
+                android:id="@+id/textLink"
+                android:text="@string/_link_text_student"
+                android:textColor="@color/blue_link"
+                style="@style/StudentTextView" />
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
