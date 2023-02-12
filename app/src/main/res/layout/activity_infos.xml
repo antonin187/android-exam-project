@@ -12,4 +12,34 @@
         layout="@layout/layout_header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/buttonStudent1"
+                style="@style/InfosButton"
+                android:text="@string/btn_text_student1" />
+
+            <Button
+                android:id="@+id/buttonStudent2"
+                style="@style/InfosButton"
+                android:text="@string/btn_text_student1" />
+
+            <Button
+                android:id="@+id/buttonStudent3"
+                style="@style/InfosButton"
+                android:text="@string/btn_text_student1" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
 </LinearLayout>
