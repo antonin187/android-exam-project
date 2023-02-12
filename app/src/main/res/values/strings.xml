@@ -7,4 +7,8 @@
 
     <string name="btn_text_info">Infos</string>
     <string name="btn_text_produits">Produits</string>
+
+    <string name="btn_text_student1">Étudiant 1</string>
+    <string name="btn_text_student2">Étudiant 2</string>
+    <string name="btn_text_student3">Étudiant 3</string>
 </resources>
