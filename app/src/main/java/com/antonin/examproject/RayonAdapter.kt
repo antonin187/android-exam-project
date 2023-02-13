@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 
 class RayonAdapter (val rayons: ArrayList<Rayon>): RecyclerView.Adapter<RayonAdapter.ViewHolder>() {
 
-    class ViewHolder(view: View) : RecyclerView.ViewHolder(view){
+    class ViewHolder(view: View) :RecyclerView.ViewHolder(view){
         val textButtonRayon = view.findViewById<Button>(R.id.buttonDisplayRayon)
         val layoutContent= view.findViewById<LinearLayout>(R.id.layoutContent)
     }

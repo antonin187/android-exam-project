@@ -41,16 +41,13 @@ class RayonsActivity : BaseActivity() {
                 if(data!=null) {
                     val jsRayons = JSONObject(data)
                     val jsArrayRayons = jsRayons.getJSONArray("items")
-                    Log.i("Epsi G1", jsArrayRayons.length().toString())
                     for (i in 0 until jsArrayRayons.length()) {
                         val js = jsArrayRayons.getJSONObject(i)
                         val rayon = Rayon(
                             js.optString("category_id", "not found"),
                             js.optString("title", "not found"),
                             js.optString("products_url", "not found")
-
                         )
-
                         rayons.add(rayon)
                         runOnUiThread(Runnable {
                             rayonAdapter.notifyDataSetChanged()
