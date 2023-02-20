@@ -1,7 +1,6 @@
 package com.antonin.examproject
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -21,6 +20,13 @@ class MainActivity : BaseActivity() {
         val buttonProduits=findViewById<Button>(R.id.buttonProduits)
         buttonProduits.setOnClickListener(View.OnClickListener {
             val newIntent = Intent(application, RayonsActivity::class.java)
+            startActivity(newIntent)
+        })
+
+        // TODO TO DELETE
+        val buttonProduit = findViewById<Button>(R.id.buttonProduct)
+        buttonProduit.setOnClickListener(View.OnClickListener {
+            val newIntent = Intent(application, ProductActivity::class.java)
             startActivity(newIntent)
         })
     }
