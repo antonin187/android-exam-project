@@ -26,7 +26,7 @@ class RayonAdapter (val rayons: ArrayList<Rayon>): RecyclerView.Adapter<RayonAda
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val rayon = rayons.get(position)
         holder.textButtonRayon.text=rayon.title
-        holder.layoutContent.setOnClickListener(View.OnClickListener {
+        holder.textButtonRayon.setOnClickListener(View.OnClickListener {
 
             val newIntent = Intent(holder.layoutContent.context, ProductsActivity::class.java)
             newIntent.putExtra("rayon_title", rayon.title)

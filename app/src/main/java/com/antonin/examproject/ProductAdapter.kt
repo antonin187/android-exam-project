@@ -32,7 +32,6 @@ class ProductAdapter (val products: ArrayList<Product>): RecyclerView.Adapter<Pr
         Picasso.get().load(product.picture_url).into(imageView);
 
         holder.layoutProduct.setOnClickListener(View.OnClickListener {
-            Toast.makeText(holder.layoutProduct.context,product.name, Toast.LENGTH_SHORT).show()
             val newIntent = Intent(holder.layoutProduct.context, ProductActivity::class.java)
             newIntent.putExtra("name", product.name)
             newIntent.putExtra("description", product.description)

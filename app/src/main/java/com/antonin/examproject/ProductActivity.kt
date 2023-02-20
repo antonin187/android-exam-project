@@ -17,6 +17,9 @@ class ProductActivity : BaseActivity() {
         showBack()
         setHeaderTitle(title)
 
+        val textViewTitle = findViewById<TextView>(R.id.textViewTitle)
+        textViewTitle.textSize= 18F
+
         val descriptionText = findViewById<TextView>(R.id.textDescription)
         descriptionText.text = description
         val productImage = findViewById<ImageView>(R.id.productImage)
