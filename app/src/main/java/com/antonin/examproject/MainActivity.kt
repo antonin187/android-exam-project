@@ -22,5 +22,12 @@ class MainActivity : BaseActivity() {
             val newIntent = Intent(application, RayonsActivity::class.java)
             startActivity(newIntent)
         })
+
+        // TODO TO DELETE
+        val buttonProduit = findViewById<Button>(R.id.buttonProduct)
+        buttonProduit.setOnClickListener(View.OnClickListener {
+            val newIntent = Intent(application, ProductActivity::class.java)
+            startActivity(newIntent)
+        })
     }
 }

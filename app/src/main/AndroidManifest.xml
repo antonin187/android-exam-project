@@ -17,6 +17,9 @@
         <activity
             android:name=".ProductsActivity"
             android:exported="false" />
+          <activity
+            android:name=".ProductActivity"
+            android:exported="false" />
         <activity
             android:name=".StudentInfosActivity"
             android:exported="false" />
