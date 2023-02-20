@@ -1,10 +1,14 @@
 package com.antonin.examproject
 
+import android.content.Intent
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
+import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
+import kotlin.math.log
 
 class RayonAdapter (val rayons: ArrayList<Rayon>): RecyclerView.Adapter<RayonAdapter.ViewHolder>() {
 
@@ -23,7 +27,12 @@ class RayonAdapter (val rayons: ArrayList<Rayon>): RecyclerView.Adapter<RayonAda
         val rayon = rayons.get(position)
         holder.textButtonRayon.text=rayon.title
         holder.layoutContent.setOnClickListener(View.OnClickListener {
-            Toast.makeText(holder.layoutContent.context,rayon.title, Toast.LENGTH_SHORT).show()
+
+            val newIntent = Intent(holder.layoutContent.context, ProductsActivity::class.java)
+            newIntent.putExtra("rayon_title", rayon.title)
+            newIntent.putExtra("products_url", rayon.products_url)
+            holder.layoutContent.context.startActivity(newIntent)
+
         })
     }
 
