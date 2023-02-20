@@ -35,12 +35,6 @@
                 android:text="@string/btn_text_produits" />
 
 
-            <!--TODO To Delete-->
-            <Button
-                style="@style/HomeButton"
-                android:id="@+id/buttonProduct"
-                android:text="Product" />
-
         </LinearLayout>
 
 
