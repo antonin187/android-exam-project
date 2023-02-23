@@ -73,7 +73,7 @@
         <item name="android:layout_gravity">center_horizontal</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:textSize">20sp</item>
-        <item name="android:background">@drawable/round_outline</item>
+        <item name="android:background">@drawable/gradient_button</item>
     </style>
 
     <style name="StudentButton" parent="TextAppearance.AppCompat.Widget.Button">
@@ -84,6 +84,6 @@
         <item name="android:textColor">@color/white</item>
         <item name="android:elevation">2dp</item>
         <item name="android:textSize">20sp</item>
-        <item name="android:background">@drawable/round_outline</item>
+        <item name="android:background">@drawable/gradient_button</item>
     </style>
 </resources>

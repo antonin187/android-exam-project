@@ -20,4 +20,6 @@
     <color name="gradientStart">#FF512F</color>
     <color name="gradientMiddle">#DD2476</color>
     <color name="gradientStop">#FF512F</color>
+
+    <color name="slate_100">#f8fafc</color>
 </resources>
