@@ -20,7 +20,7 @@ class InfosActivity : BaseActivity() {
             val lastname = "BAUDOIN"
             val urlImage = "https://avatars.githubusercontent.com/u/42619561?v=4"
             val email = "maxime.baudoin@epsi.fr"
-            val group = "Group 1"
+            val group = "Groupe 1"
             showStudentInfosActivity(firstname, lastname, urlImage, email, group)
         })
 
@@ -29,7 +29,7 @@ class InfosActivity : BaseActivity() {
             val lastname = "GALVIN"
             val urlImage = "https://media.licdn.com/dms/image/C4D03AQHBal2M82KH9g/profile-displayphoto-shrink_800_800/0/1644958973360?e=1681948800&v=beta&t=yuqksaoC56ITPQ3IiRU7XlpwGNODq_AXG1mBvM5w0tE"
             val email = "matis.galvin@epsi.fr"
-            val group = "Group 1"
+            val group = "Groupe 1"
             showStudentInfosActivity(firstname, lastname, urlImage, email, group)
         })
 
@@ -38,7 +38,7 @@ class InfosActivity : BaseActivity() {
             val lastname = "SIMON"
             val urlImage = "https://avatars.githubusercontent.com/u/63653412?v=4"
             val email = "antonin.simon@epsi.fr"
-            val group = "Group 1"
+            val group = "Groupe 1"
             showStudentInfosActivity(firstname, lastname, urlImage, email, group)
         })
 
