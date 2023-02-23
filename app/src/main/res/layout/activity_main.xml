@@ -25,12 +25,12 @@
             >
 
             <Button
-                style="@style/HomeButton"
+                style="@style/ExamHomeButton"
                 android:id="@+id/buttonInfos"
                 android:text="@string/btn_text_info" />
 
             <Button
-                style="@style/HomeButton"
+                style="@style/ExamHomeButton"
                 android:id="@+id/buttonProduits"
                 android:text="@string/btn_text_produits" />
 

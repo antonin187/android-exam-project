@@ -1,17 +1,44 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.ExamProject" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <!-- Primary brand color. -->
+    <style name="Theme.ExamProject" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary brand color. --><!--
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
-        <!-- Secondary brand color. -->
+        &lt;!&ndash; Secondary brand color. &ndash;&gt;
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/black</item>
+        &lt;!&ndash; Status bar color. &ndash;&gt;
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+
+        <!-- Primary brand color. -->
+        <!--<item name="colorPrimary">@color/pink</item>
+        <item name="colorPrimaryVariant">@color/yellow</item>
+        <item name="colorOnPrimary">@color/white</item>
+        &lt;!&ndash; Secondary brand color. &ndash;&gt;
+        <item name="colorSecondary">@color/yellow</item>
+        <item name="colorSecondaryVariant">@color/pink</item>
+        <item name="colorOnSecondary">@color/pinkDarker</item>
+        &lt;!&ndash; Status bar color. &ndash;&gt;
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>-->
+        <!-- Customize your theme here. -->
+
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/pink</item>
+        <item name="colorPrimaryVariant">@color/yellow</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/yellow</item>
+        <item name="colorSecondaryVariant">@color/pink</item>
+        <item name="colorOnSecondary">@color/pinkDarker</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+
     </style>
     <style name="HomeButton" parent="TextAppearance.AppCompat.Widget.Button">
         <item name="android:layout_marginTop">20dp</item>
@@ -37,5 +64,26 @@
         <item name="android:textAlignment">center</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="ExamHomeButton" parent="TextAppearance.AppCompat.Widget.Button">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/gradient_button</item>
+    </style>
+
+    <style name="StudentButton" parent="TextAppearance.AppCompat.Widget.Button">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:elevation">2dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/gradient_button</item>
     </style>
 </resources>

@@ -8,7 +8,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/purple_200" >
+        android:elevation="2dp"
+        android:background="@drawable/round_outline" >
 
         <TextView
             android:id="@+id/textViewTitle"
@@ -16,6 +17,7 @@
             android:layout_height="60dp"
             android:gravity="center"
             android:text="Title"
+            android:maxLines="2"
             android:textColor="@color/white"
             android:textSize="32sp"
             android:textStyle="bold"
