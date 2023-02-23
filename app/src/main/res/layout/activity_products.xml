@@ -6,7 +6,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProductsActivity">
+    tools:context=".ProductsActivity"
+    android:background="@color/slate_200">
 
     <include
         layout="@layout/layout_header"
@@ -16,5 +17,5 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycleviewProducts"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"/>
 </LinearLayout>
